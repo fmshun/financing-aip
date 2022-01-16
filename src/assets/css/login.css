@@ -1,0 +1,175 @@
+#login{
+   overflow:hidden;
+   height:100%;
+   /* background:#f3f3f3; */
+}
+#login ul li{
+  list-style:none;
+}
+#login .header{
+    width:100%;
+    height:94px;
+}
+#login .header .middle_text{
+    width:990px;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#login .header .middle_text h2{
+    line-height:80px;
+}
+
+#login .tips-wrapper {
+    background: #fff8f0;
+    width: 100%;
+    text-align: center;
+    padding-top:3px;
+}
+#login .tips-wrapper p{
+    vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+    padding-top:10px;
+    padding-left:4px;
+}
+#login .login-banner{
+  width:100%;
+  height: 475px;
+  background: #e93854;
+}
+#login .login-banner .login_form{
+    width:990px;
+    height:100%;
+    margin:0 auto;
+    background:#fff;
+}
+/**元素靠右展示**/
+#login .login-banner .rightform{
+    flex: 1;
+    float: right;
+    width:346px;
+    height:399.89px;
+    background:#fff;
+    margin-top:11px;
+    margin-right:11px;
+    position:relative;
+}
+#login .ant-form{
+  margin-top:40px !important;
+}
+#login .rightform .wrapper-title{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  padding-top:15px;
+  padding-bottom:15px;
+  border-bottom:1px solid rgb(243, 243, 240,1);
+}
+#login .rightform .wrapper-title .w_text{
+  width:172.27px;
+  height:18px;
+  text-align:center;
+  border-right:1px solid rgb(243, 243, 240,1);
+  line-height:20px;
+  /* color:#666; */
+  font-size: 18px;
+  font-family: "microsoft yahei";
+  /* cursor: pointer; */
+}
+#login .rightform .wrapper-title .w_text:hover{
+    color:#fcd1d2;
+}
+#login .rightform .wrapper-title .w_text:last-child{
+    border-right:none !important;
+}
+#login .descode{
+  text-align:center;
+}
+#login .ant-btn{
+    width: 300px;
+    left: 27px;
+    top: 26px;
+}
+#login .bottomsection{
+  width:100%;
+  height:51px;
+  border-top:1px solid #f4f4f4;
+  position:absolute;
+  bottom:0px;
+  background-color:#fcfcfc;
+  padding-left:20px;
+  padding-right:20px;
+}
+#login .bottomsection .center_text{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+#login .bottomsection .center_text .qqstyle{
+  display:block;
+  width:19px;
+  height:18px;
+  object-fit:contain;
+  margin-top:18px;
+  margin-right:4px;
+}
+#login .bottomsection .center_text .labeltext{
+  color:#666;
+  font-size:12px;
+}
+#login .bottomsection .center_text .label{
+  padding-top:19px;
+  padding-right:5px;
+}
+#login .bottomsection .center_text .lines{
+  width:1px;
+  height:14px;
+  background:#ccc;
+  margin-left:10px;
+  margin-right:12px;
+  margin-top:20px;
+}
+#login .bottomsection .center_text .nextstyle{
+    display:block;
+    width:16px;
+    height:16px;
+    margin-top:20px;
+}
+#login .bottomsection .center_text .logintext{
+    color: #b61d1d;
+    font-size:14px;
+    margin-top:17px;
+    padding-left:5px;
+}
+#login .footer {
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:20px;
+}
+#login .footer ul{
+  display:flex;
+}
+#login .footer ul li{
+    height:14px;
+    color:#666;
+    font-size:12px;
+    border-right:1px solid #666;
+    padding-right:20px;
+    margin-right:20px;
+    line-height:14px;
+    text-align:center;
+}
+#login .footer ul li:last-child{
+    border-right:none;
+}
+#login .copytext{
+    color:#666;
+    font-size:12px;
+    text-align:center;
+}

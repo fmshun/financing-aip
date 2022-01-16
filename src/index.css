@@ -1,0 +1,19 @@
+#root {
+  height: 100%;
+}
+.root {
+  height: 100%;
+}
+
+.handle-box {
+  padding: 0px 0px 10px;
+}
+
+.row-info {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.header-box {
+  margin-bottom: 15px;
+}
